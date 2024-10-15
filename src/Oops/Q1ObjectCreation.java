@@ -1,6 +1,6 @@
 package Oops;
 
-public class ObjectCreation {
+public class Q1ObjectCreation {
     public static void main(String[] args) {
         Student ss = new Student();
         ss.name = "Harsha";
