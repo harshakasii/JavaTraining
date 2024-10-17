@@ -2,9 +2,9 @@ package Strings;
 
 public class Q6StringMethods {
     public static void main(String[] args) {
-        String name = "Harsha Vardhan";
+        String name = "Harsha Va";
         String ss = "Harsha vardhan";
-        String fruits = "Banana, Apple, Orange";
+        String fruits = "Harsha:12:Male";
 
 
         System.out.println(name.toLowerCase());
@@ -31,7 +31,7 @@ public class Q6StringMethods {
         }
 
         System.out.println(name.substring(2));
-        System.out.println(name.substring(3,8));
+        System.out.println(name.substring(3,9));
 
 
         System.out.println(name.contains(" Va"));
