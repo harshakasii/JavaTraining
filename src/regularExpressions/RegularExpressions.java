@@ -5,15 +5,17 @@ import java.util.regex.Pattern;
 
 public class RegularExpressions {
     public static void main(String[] args) {
-        new RegularExpressions().f1();
-    }
-
-    private void f1() {
-        String target = "Hello World, How are you?w";
-        Pattern pattern = Pattern.compile("w");
-        Matcher matcher = pattern.matcher(target);
+        int count = 0;
+        String sentence = "Hello my name is harsha";
+        Pattern pattern = Pattern.compile("harsha");
+        Matcher matcher = pattern.matcher(sentence);
         while (matcher.find()) {
-            System.out.println("Match found at index " + matcher.start() + " end Index " + matcher.end());
+            count++;
+            System.out.println("harsha is present at index "+ matcher.start());
+            System.out.println(matcher.end());
+            System.out.println(matcher.group());
         }
-    }
+        System.out.println("No of occurrences of the regex is " + count);
+
+     }
 }
