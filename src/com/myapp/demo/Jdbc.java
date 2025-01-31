@@ -16,8 +16,6 @@ public class Jdbc {
 
         //int k = statement.executeUpdate("delete from students where id = 1001");
 
-
-
         if (i> 0) {
             System.out.println("Student data inserted in DB");
         }
